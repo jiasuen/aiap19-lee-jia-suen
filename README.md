@@ -39,14 +39,17 @@ For predicting continuous variable, Temperature Sensor (°C), we can use regress
 Since the numerical features is non-linear to Temperature Sensor (°C), Random Forest (RF), XGBoost, and Neural Networks (NN) are all suitable models to use. These 3 models are also suitable for predicting the categorical target Plant Type-Stage.
 
 1. Random Forest
+
 Can capture non-linear patterns due to its ensemble of decision trees and splits data in a non-linear manner.
 
 2. XGBoost
+
 For complex and non-linear data, it is a boosting algorithm that builds trees sequentially, improving from the errors of previous trees, which is preferred when accuracy is critical.
 
 3. Neural Networks
+
 Can capture full complexity of the non-linear data. The hidden layers use a non-linear activation function and can model a function like sine wave, or exponential curve which is perfect for our data.
-standardisation
+
 
 ## C.Evaluation of the Models 
 
